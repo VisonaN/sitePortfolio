@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    background-color:  rgba(0, 0, 0, 0.849);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links-uteis {
+    max-width: 100%;
+    text-align: center;
+}
+
+.links-uteis li {
+    width: 100px;
+    display: inline-block;
+}
+
+.links-uteis a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    background-color:  rgba(0, 0, 0, 0.849);
+    color: azure;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    perspective: 3000px;
+}
+
+header {
+    background-color:  rgba(0, 0, 0, 0.849);
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.toRender {
+    width: 2.5rem;
+    margin: 0 1.25rem;
+    vertical-align: middle;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.849);
+}
